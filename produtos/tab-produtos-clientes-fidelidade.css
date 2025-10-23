@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 10px;
+}
+
+table, th, td{
+    border: 2px double white;
+    /* tira o espaço padrão entre as linhas(tr) da tabelas / ou border-spacing: 0 */
+    border-collapse: collapse;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+h1{
+    color: indigo;
+}
+
+h2{
+    margin: 30px 0 10px 0;
+}
+
+.title-table{
+    background-color: bisque;
+    color: indigo;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.head-column th{
+    background-color: black;
+}
+
+.body-row td{
+    background-color: indigo;
+    text-align: left;
+}
+
+.foot-row td{
+    background-color: black;
+    color: white;
+}
