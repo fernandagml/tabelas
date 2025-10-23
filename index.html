@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos sobre Tabelas</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            /* tira o espaço padrão entre as linhas(tr) da tabelas / ou border-spacing: 0 */
+            border-collapse: collapse;
+            padding: 15px;
+        }
+        th{
+            background: #d2d2d2;
+        }
+        .align{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- thead, tbody, tfoot: semântico -->
+    <table>
+        
+        <thead>
+            <tr>
+                <th>Título01</th>
+                <th>Título02</th>
+                <th>Título03</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dado01</td>
+                <td>Dado02</td>
+                <td>Dado03</td>
+            </tr>
+            <tr>
+                <td>Dado04</td>
+                <td>Dado05</td>
+                <td>Dado06</td>
+            </tr>
+            <tr>
+                <td>Dado07</td>
+                <td>Dado08</td>
+                <td>Dado09</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="align">Dados extraídos em 23/10/2025</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
