@@ -1,0 +1,24 @@
+{
+  "name": "tabelas",
+  "version": "1.0.0",
+  "description": "Estudos sobre tabelas com HTML e CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandagml/tabelas.git"
+  },
+  "keywords": [
+    "tabela",
+    "css",
+    "html"
+  ],
+  "author": "Fernanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandagml/tabelas/issues"
+  },
+  "homepage": "https://github.com/fernandagml/tabelas#readme"
+}
